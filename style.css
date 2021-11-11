@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+margin: 0;
+padding: 0;
+}
+header{
+background-color: black;
+color: white;
+height: auto;
+width: 100%;
+}
+.p1{
+display: flex;
+justify-content: space-between;
+padding: 14px 10px;
+font-family: 'Roboto', sans-serif;
+font-size: 1.9957983193277vh;
+}
+.p1 a{
+    color: blue;
+    text-decoration: none;
+    }
+    h1{
+    text-align: center;
+    }
+    .detective{
+        display: flex;
+        justify-content:space-between;        
+    }
+
+#a1{
+    text-decoration: none;
+    color: black;
+}
+#a2{
+    text-decoration: none;
+    color: black;
+}  
+#a3{
+    text-decoration: none;
+    color: black;
+}  
+footer{
+    background-color: black;
+    color: white;
+    height: 50px;
+    width: 100%;
+}
+#detective{
+    position: absolute;
+bottom: 0px;
+left: 0px;
+}
+.body1{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+min-height: 100vh;
+}
+.darkTheme{
+background-color: #121212;
+color: white;
+}
+.darkTheme header{
+background-color: #1f1f1f;
+}
+.darkTheme footer{
+    background-color: #1f1f1f;
+}
+.darkTheme  .dark{
+color: orange;
+}
+.darkTheme h1{
+color: orange;
+}
+.darkTheme h1>a {
+    color: orange;
+}
+.darkTheme .a1 {
+    color: orange;
+}
+.darkTheme #a2 {
+    color: orange;
+}
+.darkTheme #a3 {
+    color: orange;
+}
+button{
+    border-radius: 0;
+    border: 0;
+    outline: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    padding: 3px 10px 3px 10px;
+    font-weight: 800;
+}
+.img1{
+display: flex;
+justify-content: space-between;
+}
+.img2{
+    display: flex;
+    justify-content: space-between;
+    }  
+    .img3{
+        display: flex;
+        justify-content: space-between;
+        }  
+        .img4{
+            display: flex;
+            justify-content: space-between;
+        }
+        #telegram1 {
+position: absolute;
+top: 1775px;
+left: 0px;
+}
+/* телефоны горизонтально */
+@media (max-width: 767px) {
+img{
+    width: 272px;
+    height: 410px;
+}
+/* телефоны вертикально */
+@media (max-width: 480px) {
+    img{
+        width: 272px;
+        height: 410px;
+    }   
+}
